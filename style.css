@@ -1,0 +1,93 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Red+Hat+Display', sans-serif;
+}
+
+article {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.text-container {
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    border-radius: 0 0 1em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5em;
+    margin: 0;
+}
+
+#annual-plan {
+    font-weight: bolder;
+    color: black;
+}
+
+a {
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 1em;
+}
+
+#payment {
+    border-radius: 1em;
+    padding: 1em;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: bolder;
+    font-size: 1em;
+    border-style: none;
+}
+
+.cancel-order {
+    text-decoration: none;
+    padding: 0.4em;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+    }
+    article {
+        width: 400px;
+    }
+}
