@@ -75,12 +75,26 @@ a {
     border-style: none;
 }
 
+#payment:hover {
+    cursor: pointer;
+    background-color: hsl(245, 69%, 63%);
+}
+
 .cancel-order {
     text-decoration: none;
     padding: 0.4em;
     color: hsl(224, 23%, 55%);
     font-weight: bold;
     font-size: 1em;
+}
+
+.cancel-order:hover {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blueviolet;
 }
 
 @media (min-width: 600px) {
